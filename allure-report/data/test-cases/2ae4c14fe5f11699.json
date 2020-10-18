@@ -1,0 +1,230 @@
+{
+  "uid" : "2ae4c14fe5f11699",
+  "name" : "should search for the product and verify the search text value",
+  "fullName" : "eBay Product Search.should search for the product and verify the search text value",
+  "historyId" : "72130b43e1f6d77200c88f8f217c62d8",
+  "time" : {
+    "start" : 1603019019587,
+    "stop" : 1603019022260,
+    "duration" : 2673
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1603019019588,
+        "stop" : 1603019019600,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce5539870c3c2fee",
+        "name" : "Response",
+        "source" : "ce5539870c3c2fee.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1603019019603,
+        "stop" : 1603019019650,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7fa9e6ebf4bc5943",
+        "name" : "Request",
+        "source" : "7fa9e6ebf4bc5943.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "a2022e64100a853b",
+        "name" : "Response",
+        "source" : "a2022e64100a853b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/d2423129-cf91-4f01-87c3-96ab879a2847/value",
+      "time" : {
+        "start" : 1603019019670,
+        "stop" : 1603019019807,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbc7b9e8a680e710",
+        "name" : "Request",
+        "source" : "bbc7b9e8a680e710.json",
+        "type" : "application/json",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1603019019807,
+        "stop" : 1603019019843,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1d30dde1602a599",
+        "name" : "Request",
+        "source" : "d1d30dde1602a599.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "12cae57ff79aea04",
+        "name" : "Response",
+        "source" : "12cae57ff79aea04.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/5cf0fe35-8be3-45d5-954b-c01580bc4b26/click",
+      "time" : {
+        "start" : 1603019019845,
+        "stop" : 1603019022152,
+        "duration" : 2307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1603019022152,
+        "stop" : 1603019022201,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51d60e3c50b71039",
+        "name" : "Request",
+        "source" : "51d60e3c50b71039.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "7ff5cdd75cbfa224",
+        "name" : "Response",
+        "source" : "7ff5cdd75cbfa224.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/dbcc2486-de70-48de-ad5a-4420e4bb2366/property/value",
+      "time" : {
+        "start" : 1603019022207,
+        "stop" : 1603019022259,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84f13e4a1edc1806",
+        "name" : "Response",
+        "source" : "84f13e4a1edc1806.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "eBay Product Search"
+  }, {
+    "name" : "testClass",
+    "value" : "eBay Product Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should search for the product and verify the search text value"
+  }, {
+    "name" : "package",
+    "value" : "eBay Product Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ae4c14fe5f11699.json",
+  "parameterValues" : [ "chrome-86.0.4240.75" ]
+}

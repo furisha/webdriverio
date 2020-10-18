@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Oct 18 13:03:42 CEST 2020","Sun Oct 18 13:03:42 CEST 2020","18","","eBay Product Search","","eBay Product Search","should redirect to a new page and verify the title","should redirect to a new page and verify the title",""
+"passed","Sun Oct 18 13:03:42 CEST 2020","Sun Oct 18 13:03:42 CEST 2020","110","","eBay Product Search","","eBay Product Search","should update the search category","should update the search category",""
+"passed","Sun Oct 18 13:03:37 CEST 2020","Sun Oct 18 13:03:39 CEST 2020","1702","","eBay Product Search","","eBay Product Search","should open the main url and verify the title","should open the main url and verify the title",""
+"passed","Sun Oct 18 13:03:39 CEST 2020","Sun Oct 18 13:03:42 CEST 2020","2673","","eBay Product Search","","eBay Product Search","should search for the product and verify the search text value","should search for the product and verify the search text value",""

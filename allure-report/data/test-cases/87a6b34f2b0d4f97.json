@@ -1,0 +1,110 @@
+{
+  "uid" : "87a6b34f2b0d4f97",
+  "name" : "should redirect to a new page and verify the title",
+  "fullName" : "eBay Product Search.should redirect to a new page and verify the title",
+  "historyId" : "c52c9fdc705c996daeb30da7d20e7429",
+  "time" : {
+    "start" : 1603019022260,
+    "stop" : 1603019022278,
+    "duration" : 18
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1603019022260,
+        "stop" : 1603019022268,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54c468397300a30",
+        "name" : "Response",
+        "source" : "54c468397300a30.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1603019022269,
+        "stop" : 1603019022277,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab4d288758925eba",
+        "name" : "Response",
+        "source" : "ab4d288758925eba.json",
+        "type" : "application/json",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "eBay Product Search"
+  }, {
+    "name" : "testClass",
+    "value" : "eBay Product Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should redirect to a new page and verify the title"
+  }, {
+    "name" : "package",
+    "value" : "eBay Product Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87a6b34f2b0d4f97.json",
+  "parameterValues" : [ "chrome-86.0.4240.75" ]
+}
